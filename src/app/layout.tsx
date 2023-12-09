@@ -1,4 +1,5 @@
 import "~/styles/globals.css";
+import "~/app/globals.css";
 
 import { Inter } from "next/font/google";
 import { cookies } from "next/headers";
