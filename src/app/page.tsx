@@ -3,9 +3,7 @@ import Link from "next/link";
 
 import HeroImage from "public/images/hero.jpg";
 
-import { CreatePost } from "~/app/_components/create-post";
 import { Button } from "~/components/ui/button";
-import { api } from "~/trpc/server";
 
 export default async function Home() {
   return (
@@ -71,8 +69,8 @@ function TopicList() {
       level: "Intermediate",
     },
     {
-      name: "Time",
-      link: "/lesson/time",
+      name: "Number",
+      link: "/lesson/number",
       level: "Intermediate",
     },
   ];
