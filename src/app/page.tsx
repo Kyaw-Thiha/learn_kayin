@@ -34,7 +34,7 @@ function HeroSection() {
 
             <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
               <Button>
-                <Link href="/">Lets Start Now</Link>
+                <Link href="/lesson/basics">Lets Start Now</Link>
               </Button>
             </div>
           </div>
